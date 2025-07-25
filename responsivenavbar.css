@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.nav-container {
+    background-color: #ffffff;
+    max-height: 10vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 20px;
+    width: 50px;
+}
+
+.items {
+    text-decoration: none;
+    font-size: 16px;
+    color: #12022f;
+    padding: 10px;
+}
+
+.button {
+    border-width: 0px;
+    border-radius: 20px;
+    color: #12022f;
+    padding: 10px;
+    background-color: #ffdda9;
+    width: 120px;
+    margin: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .bg-container {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-lg-bg.png");
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .bg-container {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-sm-bg.png");
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+.head {
+    color: #ffffff;
+    font-size: 32px;
+    max-width: 40%;
+    justify-content: center;
+}
+
+.close-icon {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .open-icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .items-container {
+        display: none;
+    }
+}
+
+.items-md-container {
+    background-color: #ffffff;
+    color: #e7e5ea;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+@media screen and (max-height:767px) {
+    .hbreak {
+        height: 2px;
+        width: 100%;
+    }
+}
+
+.hide {
+    display: none;
+}
