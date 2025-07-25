@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+@media screen and (min-width:1199px) {
+    .bg-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        min-height: 100vh;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:1199px) {
+    .pricing-plans-container {
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+}
+
+@media screen and (min-width:1199px) {
+    .pricing-plans-head {
+        color: #ff6e30;
+        font-size: 32px;
+        padding-left: 20px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width:1199px) {
+    .cards-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:1199px) {
+    .price-description {
+        color: #f8fafc;
+        font-size: 19px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width:1199px) {
+    .card-container {
+        background-color: #2c353d;
+        min-height: 55vh;
+        max-width: 40vh;
+        background-size: cover;
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1199px) {
+    .img {
+        height: 80px;
+        width: 80px;
+        align-self: flex-end;
+    }
+}
+
+@media screen and (min-width:1199px) {
+    .price {
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width:1199px) {
+    .per-month {
+        color: #e2e8f0;
+        font-size: 15px;
+
+    }
+}
+
+@media screen and (min-width:1199px) {
+    .info {
+        color: #f8fafc;
+        font-size: 26px;
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width:1199px) {
+    .list-items {
+        color: #e2e8f0;
+        font-size: 18px;
+        font-weight: 100;
+        flex-grow: 1;
+    }
+}
+
+@media screen and (min-width:1199px) {
+    .button {
+        color: #2d3748;
+        font-size: 23px;
+        font-weight: 600;
+        padding: 20px;
+        width: 200px;
+        border-radius: 16px;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width:1199px) {
+    .premium-button {
+        color: #ffffff;
+        background-color: #ff6e30;
+        font-size: 23px;
+        font-weight: 600;
+        padding: 20px;
+        width: 200px;
+        border-radius: 16px;
+        margin: 20px;
+    }
+}
