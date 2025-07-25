@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.color-palette-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.red {
+    background-color: #f87171;
+    padding: 10px;
+    height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.orange {
+    background-color: #fb923c;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.amber {
+    background-color: #fbbf24;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.yellow {
+    background-color: #facc15;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.lime {
+    background-color: #a3e635;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.green {
+    background-color: #4ade80;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.emerald {
+    background-color: #34d399;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.cyan {
+    background-color: #22d3ee;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.light-blue {
+    background-color: #38bdf8;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.blue {
+    background-color: #60a5fa;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.indigo {
+    background-color: #818cf8;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.purple {
+    background-color: #c084fc;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.fuchsia {
+    background-color: #e879f9;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.pink {
+    background-color: #f472b6;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.rose {
+    background-color: #fb7185;
+    padding: 10px;
+     height:150px;
+    width:150px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+
+}
