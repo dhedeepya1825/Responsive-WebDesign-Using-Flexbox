@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: linear-gradient(to right, #f54f5a, #f58529, #f64f59, #d267c4, #00ffff);
+    max-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+@media screen and (max-height:767px) {
+    .bg-small {
+        background-image: linear-gradient(to right, #f54f5a, #f58529, #f64f59, #d267c4, #00ffff);
+    }
+}
+
+@media screen and (min-height:768px) {
+    .bg-big {
+        background-image: linear-gradient(to bottom, #f54f5a, #f58529, #f64f59, #d267c4, #00ffff);
+    }
+}
+
+.insta-logo {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .info-container {
+        background-color: #ffffff;
+        max-height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .info-container {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+}
+
+.img {
+    height: 50%;
+    width: 90%;
+}
+
+.button {
+    background-color: #3b82f6;
+    padding: 10px;
+    border-width: 0px;
+    color: #ffffff;
+    height: 40px;
+    width: 90px;
+    border-radius: 6px;
+}
+
+.input-search {
+    align-self: center;
+}
+
+.insta-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.nav-items {
+    color: #ffffff;
+    padding: 10px;
+}
+
+@media screen and (max-height:767px) {
+    .input-search {
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .nav-items-container {
+        display: none;
+    }
+}
+
+.search-logo {
+    height: 60px;
+
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+}
